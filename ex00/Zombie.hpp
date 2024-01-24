@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 10:46:26 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/24 11:21:38 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/24 11:35:27 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 class Zombie
 {
-    std::string name;
+    std::string _name;
     
 public:
     Zombie( std::string name );
