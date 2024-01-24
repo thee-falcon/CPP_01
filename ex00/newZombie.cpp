@@ -6,7 +6,13 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 10:46:15 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/24 10:46:16 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/24 11:55:39 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Zombie.hpp"
+
+Zombie *newZombie( std::string name )
+{
+    return (new Zombie(name));
+}
