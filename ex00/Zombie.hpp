@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 10:46:26 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/24 12:15:06 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/24 12:17:44 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,8 @@ public:
     Zombie* newZombie( std::string name );
     void    randomChump( std::string name );
 };
+
+Zombie* newZombie( std::string name );
+void    randomChump( std::string name );
 
 #endif
