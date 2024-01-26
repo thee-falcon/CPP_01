@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 12:54:04 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/25 16:50:05 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/26 10:26:07 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ Zombie* zombieHorde( int N, std::string name )
     Zombie  *horde = new Zombie[N];
     
     for (int i = 0; i < N; i++)
-        horde[i] = Zombie(name);
+        horde[i].getName(name);
     return(horde);     
 }

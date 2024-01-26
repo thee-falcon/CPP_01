@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 12:53:58 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/25 16:45:02 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/26 10:26:36 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@ class   Zombie
 {
     std::string _name;
 public:
-    Zombie( std::string name = "");
+    Zombie( void );
     ~Zombie();
     void    announce( void );
+    void    getName( std::string name);
 };
 
 Zombie* zombieHorde( int N, std::string name );
