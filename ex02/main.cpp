@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/25 19:11:35 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/25 19:33:00 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/26 10:17:54 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 
     std::cout << "------------------- Memory Address ------------------- " << std::endl;
     std::cout << "The memory address of the string variable: " << &brain << std::endl;
-    std::cout << "The memory address held by stringPTR: " << &brainPTR << std::endl;
+    std::cout << "The memory address held by stringPTR: " << brainPTR << std::endl;
     std::cout << "The memory address held by stringREF: " << &brainREF << std::endl;
     std::cout << "------------------- Values ------------------- " << std::endl;
     std::cout << "The value of the string variable: " << brain << std::endl;
