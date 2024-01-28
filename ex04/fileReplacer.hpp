@@ -6,7 +6,7 @@
 /*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/28 15:45:25 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/28 18:21:25 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/28 18:48:42 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ class   FileReplacer
     FileReplacer (std::string &FileName, std::string &s1, std::string &s2);
     ~FileReplacer ();
     void    replaceAndSave( void );
-    
 };
 
 #endif
