@@ -3,17 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
+/*   By: omakran <omakran@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 17:07:06 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/30 17:11:03 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/30 19:35:30 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
-int main()
+int main(int argc, char __unused **argv)
 {
-    
+    if (argc == 3)
+    {
+
+    }
+    else
+        // message
     return (0);
 }
