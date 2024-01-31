@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: omakran <omakran@student.1337.ma>          +#+  +:+       +#+        */
+/*   By: omakran <omakran@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 17:07:06 by omakran           #+#    #+#             */
-/*   Updated: 2024/01/30 19:35:30 by omakran          ###   ########.fr       */
+/*   Updated: 2024/01/31 16:12:35 by omakran          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,14 @@
 
 int main(int argc, char __unused **argv)
 {
-    if (argc == 3)
+    if (argc != 2)
     {
-
+        std::cerr << "Usage: " << argv[0] << "<log_level>" << std::endl;
+        return (1);
     }
-    else
-        // message
+    std::string arg = argv[1];
+    Harl        harl;
+    harl.complain(arg);
+
     return (0);
 }
